@@ -37,7 +37,8 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: allure-results
-          path: allure-results
+          path: 
+            allure-results
           retention-days: 1
   
   generate-report:
